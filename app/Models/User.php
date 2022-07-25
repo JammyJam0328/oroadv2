@@ -10,10 +10,10 @@ use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
 use Filament\Models\Contracts\FilamentUser;
-use Laravel\Scout\Searchable;
+// use Laravel\Scout\Searchable;
 class User extends Authenticatable implements FilamentUser
 {
-     use Searchable;
+    //  use Searchable;
     use HasApiTokens;
     use HasFactory;
     use HasProfilePhoto;
